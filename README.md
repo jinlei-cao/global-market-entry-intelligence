@@ -149,5 +149,3 @@ World Bank. (2023). *Connecting to compete 2023: Trade logistics in the global e
 World Bank. (2026). *Worldwide Governance Indicators: 2026 update*. https://www.worldbank.org/en/publication/worldwide-governance-indicators
 
 World Bank. (n.d.). *World Bank Indicators API documentation*. https://datahelpdesk.worldbank.org/knowledgebase/articles/889392
-
-See [REFERENCES_APA.md](docs/REFERENCES_APA.md) for sources, versions and citation notes.
