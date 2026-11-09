@@ -140,7 +140,7 @@ global-market-entry-intelligence/
 
 This study ranks countries **only relative to the chosen set, data series and preference assumptions**. A changed comparison basket can change min–max scores. Different indicators may refer to different years. WGI reflects perception-based estimates, while survey LPI is a historical assessment. Cross-country indicators may hide within-country variation. The model does not measure causal effects, company-specific revenue, profitability, sanctions exposure, foreign ownership rules, contract enforcement, tax, or environmental harms. Investment choices require independent legal and sector due diligence.
 
-## Research references (APA 7)
+## Research references
 
 World Bank. (n.d.). *World Development Indicators*. https://databank.worldbank.org/source/world-development-indicators
 
@@ -151,26 +151,3 @@ World Bank. (2026). *Worldwide Governance Indicators: 2026 update*. https://www.
 World Bank. (n.d.). *World Bank Indicators API documentation*. https://datahelpdesk.worldbank.org/knowledgebase/articles/889392
 
 See [REFERENCES_APA.md](docs/REFERENCES_APA.md) for sources, versions and citation notes.
-
-## GitHub publication for Chloe
-
-1. Sign in to the GitHub account [jinlei-cao](https://github.com/jinlei-cao).
-2. Create a **Public** repository named `global-market-entry-intelligence`. If uploading the package directly, do not initialise a duplicate README.
-3. Extract the downloaded ZIP. Upload the **contents** of `global-market-entry-intelligence/` via GitHub's **uploading an existing file** link (show hidden `.github`, `.streamlit` and `.gitignore` files in Finder).
-4. Enter commit message `Initial release: global market entry research toolkit`.
-5. Open **Actions** and check the offline tests; then run the real-data analysis from a local computer with internet access.
-
-Command-line alternative (GitHub must authenticate as Chloe, not a different account):
-
-```bash
-git init
-git add .
-git commit -m "Initial reproducible global market entry research toolkit"
-git branch -M main
-git remote add origin https://github.com/jinlei-cao/global-market-entry-intelligence.git
-git push -u origin main
-```
-
-**Research integrity:** The initial implementation was AI-assisted. Jinlei Cao should read the code, personally run and critique the research, verify citations, assess the selected markets, and independently understand any results before claiming it as personal research experience. No personal email, passwords, identification numbers or employer documents are embedded in the repository.
-
-**License:** MIT applies to original software only. World Bank datasets and third-party sources have their own attribution and use terms. The demo values are synthetic and generated within this project.
