@@ -1,0 +1,31 @@
+{
+  "data_kind": "synthetic_demo",
+  "is_synthetic": true,
+  "generated_at_utc": "2026-11-09T18:47:53.401591+00:00",
+  "input": "data/processed/synthetic_demo.csv",
+  "missing_policy": "exclude",
+  "countries_in_input": 18,
+  "countries_ranked": 18,
+  "excluded_country_codes": [],
+  "weights": {
+    "NY.GDP.MKTP.CD": 0.23,
+    "NY.GDP.MKTP.KD.ZG": 0.12,
+    "RQ.EST": 0.23,
+    "LP.LPI.OVRL.XQ": 0.25,
+    "IT.NET.USER.ZS": 0.17
+  },
+  "sensitivity": {
+    "simulations": 1200,
+    "seed": 2027,
+    "dirichlet_concentration": 55,
+    "interpretation": "Preference weights uncertainty only; country-indicator measurement uncertainty not modelled."
+  },
+  "model_limitations": [
+    "Relative rankings depend on the candidate set and chosen indicator weights.",
+    "LPI is the old survey-based indicator, not the LPI 2.0 tracking-data series.",
+    "WGI regulatory-quality estimate is perception-based, not a regulatory audit.",
+    "No firm-specific profitability, tax, legal, sanctions, or due-diligence screening.",
+    "Different indicators can refer to different years; see source_observations.csv.",
+    "Top-ranked markets are screening candidates, not investment recommendations."
+  ]
+}

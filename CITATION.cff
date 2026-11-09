@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use the software, please cite the repository and the original World Bank data separately."
+title: "Global Market Entry Intelligence"
+authors:
+  - family-names: Cao
+    given-names: Jinlei
+version: 0.1.0
+date-released: 2026-11-09
+repository-code: https://github.com/jinlei-cao/global-market-entry-intelligence
+license: MIT
+keywords:
+  - decision-analysis
+  - investment-research
+  - business-analytics
+  - country-risk
+abstract: "An AI-assisted software scaffold for reproducible multicriteria market screening. Real country results require independent execution and review."
